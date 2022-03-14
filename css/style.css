@@ -2,6 +2,21 @@ body {
   background-color: beige;
 }
 
+.home-content {
+    margin: auto 255px;
+}
+
+.home-content h1 {
+    font-size: 55px;
+    padding-top: 20px;
+}
+
+.home-content p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+
 /*  footer part  */
 .footer_top {
   display: flex;
@@ -43,8 +58,12 @@ body {
 .footer_bottom {
   display: flex;
   justify-content: center;
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);	
+}
 
+
+/*  Carousel part  */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);	
 
 #slider {
   position: relative;
