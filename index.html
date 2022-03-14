@@ -6,10 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+
+     <!-- Font Awesome ver 6.0.0-->
+    <script src="https://kit.fontawesome.com/bcd63e2dc6.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts: Roboto, Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
-    <h1>Test</h1>
+    <header class="header">
+        <div class="header__container">
+          <div class="header__inner">
+            <div class="header__inner__menu">
+                <button onclick="menuBtn()" class="header__inner__menu--btn">
+                    <i class="fa-solid fa-bars fa-2x"></i>
+                </button>
+                    <div id="myDropdown" class="header__inner__menu--btn--content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+            </div>
+            <div class="header__inner__title">
+              <a href="index.html">Worldwide Food</a>
+            </div>  
+          </div>
+        </div>
+      </header>
 
     
     <script src="scripts/jquery-3.6.0.min.js"></script>
