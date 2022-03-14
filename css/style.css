@@ -1,8 +1,12 @@
 body {
-  background-color: beige;
+  background-color: #f5f5dc;
 }
 
 /*  footer part  */
+
+footer {
+  background-color: #dcdcf5;
+}
 .footer_top {
   display: flex;
   margin-left: 15%;
@@ -31,7 +35,9 @@ body {
 
 .footer_image_part {
   width: 20%;
-  margin-right: 10%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .footer_image {
@@ -43,8 +49,19 @@ body {
 .footer_bottom {
   display: flex;
   justify-content: center;
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);	
+  margin-top: 20px;
+}
 
+.footer_bottom_copy {
+  border-right: 3px solid black;
+  padding-right: 10px;
+}
+
+.footer_bottom_allright {
+  margin-left: 10px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 
 #slider {
   position: relative;
@@ -74,25 +91,26 @@ body {
   text-align: center;
   line-height: 100px;
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: contain;
 }
 
 .slider-bkground1 {
-    background:url(https://restaurantebrasil.jp/wp-content/uploads/2020/11/frango-parmegiana.jpg);
-    background-size: 12300px 1000px;
+  background: url(https://restaurantebrasil.jp/wp-content/uploads/2020/11/frango-parmegiana.jpg);
+  background-size: 12300px 1000px;
 }
 
 .slider-bkground2 {
-    background:url(https://www.shugarysweets.com/wp-content/uploads/2020/09/apple-crumble-recipe-720x720.jpg);
-    background-size: auto;
+  background: url(https://www.shugarysweets.com/wp-content/uploads/2020/09/apple-crumble-recipe-720x720.jpg);
+  background-size: auto;
 }
 
 .slider-bkground3 {
-    background:url(https://www.laylita.com/recipes/wp-content/uploads/2018/06/Brazlian-Brigadeiro-recipe.jpg);
-    background-repeat: no-repeat;
+  background: url(https://www.laylita.com/recipes/wp-content/uploads/2018/06/Brazlian-Brigadeiro-recipe.jpg);
+  background-repeat: no-repeat;
 }
 
-a.control_prev, a.control_next {
+a.control_prev,
+a.control_next {
   position: absolute;
   top: 40%;
   z-index: 999;
@@ -109,7 +127,8 @@ a.control_prev, a.control_next {
   cursor: pointer;
 }
 
-a.control_prev:hover, a.control_next:hover {
+a.control_prev:hover,
+a.control_next:hover {
   opacity: 1;
   -webkit-transition: all 0.2s ease;
 }
