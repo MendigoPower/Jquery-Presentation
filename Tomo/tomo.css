@@ -1,0 +1,41 @@
+.tomo_contents {
+  margin: 0;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.fake {
+  height: 150px;
+}
+
+section h1 {
+  font-size: 50px;
+}
+
+section h2 {
+  font-size: 30px;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+section h3 {
+  font-size: 25px;
+  display: inline-block;
+  border-bottom: 1.5px solid black;
+}
+
+section p {
+  font-size: 20px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+section li {
+  font-size: 20px;
+}
+
+section a {
+  font-size: 20px;
+  color: blue;
+  border-bottom: 1px solid blue;
+}
