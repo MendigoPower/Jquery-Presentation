@@ -72,12 +72,34 @@ body {
     font-family: 'Hubballi', cursive;
 }
 
-h2 {
+.recipe__content {
+  margin: auto 255px;
+}
+
+.recipe__content h1 {
+  font-size: 55px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+
+}
+
+.recipe__content__video {
+  text-align:center;
+  width:100%;
+}
+
+.recipe__content h2 {
   padding-top: 20px;
   font-size: 30px;
 }
 
-.recipe__content li {
+.recipe__content__ingredients li {
+  list-style-type: circle;
+  padding: 10px;
+  margin-left: 15px;
+}
+
+.recipe__content__preparation li {
   list-style-type: decimal;
   padding: 10px;
   margin-left: 15px;
