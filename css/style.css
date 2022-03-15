@@ -88,65 +88,6 @@ body {
   padding-top: 20px;
 }
 
-/*  footer part  */
-
-footer {
-  background-color: #dcdcf5;
-}
-.footer_top {
-  display: flex;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
-.footer_top h2 {
-  font-size: 25px;
-}
-
-.footer_top p {
-  font-size: 15px;
-}
-
-.footer_brazil {
-  width: 20%;
-  margin-left: 10%;
-}
-
-.footer_turkey {
-  width: 20%;
-}
-.footer_japan {
-  width: 20%;
-}
-
-.footer_image_part {
-  width: 20%;
-  margin-left: 10%;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.footer_image {
-  width: 30px;
-  height: 30px;
-  margin: 10px;
-}
-
-.footer_bottom {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.footer_bottom_copy {
-  border-right: 3px solid black;
-  padding-right: 10px;
-}
-
-.footer_bottom_allright {
-  margin-left: 10px;
-}
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 
 /*  Carousel part  */
@@ -237,4 +178,88 @@ a.control_next {
   margin: 10px auto;
   width: 160px;
   font-size: 18px;
+}
+
+/*  footer part  */
+
+footer {
+  background-color: #dcdcf5;
+  height: 170px;
+}
+.footer_top {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 10px;
+}
+
+.footer_top h2 {
+  font-size: 25px;
+}
+
+.footer_top p {
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+.footer_brazil {
+  width: 20%;
+  margin-left: 10%;
+}
+
+.footer_turkey {
+  width: 20%;
+}
+.footer_japan {
+  width: 20%;
+}
+
+.footer_image_part {
+  width: 20%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer_image {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.footer_bottom {
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.footer_bottom_copy {
+  border-right: 3px solid black;
+  padding-right: 10px;
+}
+
+.footer_bottom_allright {
+  margin-left: 10px;
+}
+
+/*  Scroll-to-top button  */
+
+.scroll {
+  text-align: right;
+  display: none;
+}
+
+.scrbutton {
+  position: fixed;
+  right: 5%;
+  bottom: 3%;
+  background-color: #424213;
+  padding: 10px 20px 10px 20px;
+  opacity: 0.7;
+  border-radius: 20px;
+}
+
+.topbtn_p {
+  margin-right: 5%;
+  color: #fff;
 }
