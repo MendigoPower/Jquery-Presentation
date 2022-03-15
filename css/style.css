@@ -339,7 +339,7 @@ footer {
   margin-top: 2px;
 }
 .set > a.active{
-  background-color:#3399cc;
+  background-color:gray;
   color: #fff;
 }
 .content{
