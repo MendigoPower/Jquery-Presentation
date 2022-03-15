@@ -1,14 +1,10 @@
-body {
-    background-color: beige;
-}
-
 /* HEADER */
 
 .header {
     position: fixed;
     width: 100%;
     padding: 5px 10px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     background-color: white;
 }
   
@@ -70,8 +66,21 @@ body {
   .show {display:block;}
 
   /* END HEADER */
-  body {
-  background-color: #f5f5dc;
+
+body {
+    background-color: #f5f5dc;
+    font-family: 'Hubballi', cursive;
+}
+
+h2 {
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.recipe__content li {
+  list-style-type: decimal;
+  padding: 10px;
+  margin-left: 15px;
 }
 
 .home-content {
@@ -80,7 +89,8 @@ body {
 
 .home-content h1 {
   font-size: 55px;
-  padding-top: 20px;
+  padding-top: 70px;
+
 }
 
 .home-content p {
