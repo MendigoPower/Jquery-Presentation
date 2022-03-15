@@ -70,3 +70,171 @@ body {
   .show {display:block;}
 
   /* END HEADER */
+  body {
+  background-color: #f5f5dc;
+}
+
+.home-content {
+  margin: auto 255px;
+}
+
+.home-content h1 {
+  font-size: 55px;
+  padding-top: 20px;
+}
+
+.home-content p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+/*  footer part  */
+
+footer {
+  background-color: #dcdcf5;
+}
+.footer_top {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.footer_top h2 {
+  font-size: 25px;
+}
+
+.footer_top p {
+  font-size: 15px;
+}
+
+.footer_brazil {
+  width: 20%;
+  margin-left: 10%;
+}
+
+.footer_turkey {
+  width: 20%;
+}
+.footer_japan {
+  width: 20%;
+}
+
+.footer_image_part {
+  width: 20%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer_image {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.footer_bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer_bottom_copy {
+  border-right: 3px solid black;
+  padding-right: 10px;
+}
+
+.footer_bottom_allright {
+  margin-left: 10px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+/*  Carousel part  */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 300px;
+  list-style: none;
+}
+
+#slider ul li {
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 35, 0.25);
+  border-radius: 8px;
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 1500px;
+  height: 500px;
+  text-align: center;
+  line-height: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slider-bkground1 {
+  background: url(https://restaurantebrasil.jp/wp-content/uploads/2020/11/frango-parmegiana.jpg);
+  background-size: 12300px 1000px;
+}
+
+.slider-bkground2 {
+  background: url(https://www.shugarysweets.com/wp-content/uploads/2020/09/apple-crumble-recipe-720x720.jpg);
+  background-size: auto;
+}
+
+.slider-bkground3 {
+  background: url(https://www.laylita.com/recipes/wp-content/uploads/2018/06/Brazlian-Brigadeiro-recipe.jpg);
+  background-repeat: no-repeat;
+}
+
+a.control_prev,
+a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 2% 1%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600px;
+  font-size: 18px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+a.control_prev:hover,
+a.control_next:hover {
+  opacity: 1;
+  transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+  position: relative;
+  margin: 10px auto;
+  width: 160px;
+  font-size: 18px;
+}
