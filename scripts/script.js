@@ -1,10 +1,8 @@
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
+/* Dropdown menu */
 function menuBtn() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
   
-  // Close the dropdown menu if the user clicks outside of it
   window.onclick = function(event) {
     if (!event.target.matches('.header__inner__menu--btn')) {
       var dropdowns = document.getElementsByClassName("header__inner__menu--btn--content");
@@ -89,16 +87,5 @@ $(function () {
   });
 });
 
-
-// Tabs buttons
-$(document).ready(function(){
-  $('div#txt_cont div:gt(0)').css('display', 'none');
-  $('#menu ul li a').click(function(event){
-    event.preventDefault();
-    var id_tab = $(this).attr('href');
-    $('#menu ul li a').removeClass('hover_tab');
-    $(this).addClass('hover_tab');
-    $('div.txt_tab:visible').hide();
-    $(id_tab).show('slide');
-  });
-});
+//Tooltip
+$("#tooltip-ingredients").attr('title', 'If you don\'t want a very sweet recipe, you can add dark cocoa powder');

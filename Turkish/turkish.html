@@ -7,12 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./umutcss.css">
-    <script src="https://kit.fontawesome.com/bcd9c830bb.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bcd63e2dc6.js" crossorigin="anonymous"></script>
     <title>Turkish Style Stuffed Peppers</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
 </head>
+<header class="header">
+    <div class="header__container">
+      <div class="header__inner">
+        <div class="header__inner__menu">
+            <button onclick="menuBtn()" class="header__inner__menu--btn">
+                <i class="fa-solid fa-bars fa-2x"></i>
+            </button>
+                <div id="myDropdown" class="header__inner__menu--btn--content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+        </div>
+        <div class="header__inner__title">
+          <a href="index.html">Worldwide Food</a>
+        </div>  
+      </div>
+    </div>
+  </header>
 
 <body>
     <h1>Recipe</h1>
+    <div class="centered">
     <p class="f_exp">Turkish cuisine is well known for its stuffed and wrapped vegetable dishes called dolma and sarma.
         Tiny green
         peppers stuffed with rice, pine nuts, and currants–better known as biber dolması (bee-BEYR' dole-MAH'-suh)–are
@@ -40,9 +64,52 @@
             <li>1 small tomato, cut into flat squares, for garnish</li>
         </ul>
     </div>
-    <iframe width="600" height="400"
-    src="https://www.youtube.com/watch?v=9gQoLlGe7nU">
-    </iframe>
+    <h3>Recipe Video</h3>
+    <iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/9gQoLlGe7nU" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</div>
+
+<footer>
+    <div class="footer_top">
+        <div class="footer_brazil">
+            <h2 class="footer_h2">Brazil</h2>
+            <p class="footer_p">Gabriel</p>
+            <p class="footer_p">Tatiana</p>
+        </div>
+        <div class="footer_turkey">
+            <h2 class="footer_h2">Turkey</h2>
+            <p class="footer_p">Umut</p>
+        </div>
+        <div class="footer_japan">
+            <h2 class="footer_h2">Japan</h2>
+            <p class="footer_p">Tomoyuki</p>
+        </div>
+        <div class="footer_image_part">
+            <img class="footer_image" src="./Tomo/Images/img_footer_facebook.png" alt="focebook_image" />
+            <img class="footer_image" src="./Tomo/Images/img_footer_instagram.png" alt="instagram_image" />
+            <img class="footer_image" src="./Tomo/Images/img_footer_linkdin.png" alt="linkdin_image" />
+            <img class="footer_image" src="./Tomo/Images/img_footer_twitter.png" alt="twitter_image" />
+        </div>
+    </div>
+
+
+
+  <div class="footer_bottom">
+    <p class="footer_bottom_copy">Copyright2022</p>
+    <p class="footer_bottom_allright">All right reserved</p>
+  </div>
+
+<!-- Scroll-to-top button  -->
+<div class="scroll">
+<div id="topbtn" class="scrbutton">
+    <p class="topbtn_p"><a href="#">▲Top</a></p>
+</div>
+</div>
+ 
+</footer>
+    
+    
     <script src="scripts/jquery-3.6.0.min.js"></script>
     <script src="./umutscript.js"></script>
 </body>
