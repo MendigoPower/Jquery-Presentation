@@ -220,7 +220,7 @@ a.control_next {
 /*  footer part  */
 
 footer {
-  background-color: #dcdcf5;
+  background-color: #fff;
   height: 170px;
 }
 .footer_top {
@@ -297,6 +297,7 @@ footer {
 }
 
 .topbtn_p {
+  margin-bottom: 0%;
   margin-right: 5%;
   color: #fff;
 }
