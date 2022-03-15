@@ -2,6 +2,20 @@ body {
   background-color: #f5f5dc;
 }
 
+.home-content {
+  margin: auto 255px;
+}
+
+.home-content h1 {
+  font-size: 55px;
+  padding-top: 20px;
+}
+
+.home-content p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
 /*  footer part  */
 
 footer {
@@ -60,6 +74,10 @@ footer {
 .footer_bottom_allright {
   margin-left: 10px;
 }
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+/*  Carousel part  */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 
