@@ -51,13 +51,13 @@
 
     <!-- Omurice introduction  -->
     <h1 class="tomo_h1">Omurice</h1>
-    <p>The base of any omurice recipe tastes like soft scrambled eggs with Japanese fried rice that's flavored with ketchup and a splash of soy sauce. It's savory and soft in texture; a great comfort food for both kids and adults alike!</p>
+    <p class="intr_p">The base of any omurice recipe tastes like soft scrambled eggs with Japanese fried rice that's flavored with ketchup and a splash of soy sauce. It's savory and soft in texture; a great comfort food for both kids and adults alike!</p>
 
     <img class="omurice_top" src="./images/img_tomo_omuraisu_top.jpg" alt="omuraice_top">
     
     <!-- Omurice ingredients  -->
 
-    <h2>□Ingredients</h2>
+    <h2>■Ingredients</h2>
     <h3>For the Ketchup fried rice</h3>
         <li>1/2 Onion</li>
         <li>1 Boneless, skinless chicken</li>
@@ -68,7 +68,7 @@
         <li>2 servings cooked Japanese rice </li>
         <li>1 Tbsp ketchup</li>
         <li>1 tsp soy sauce</li>
-
+<br>
     <h3>For the omelettes</h3>
     <li>2 large eggs (50 g w/o shell) </li>
     <li>2 Tbsp milk</li>
@@ -77,7 +77,7 @@
 
 
     <!-- Omurice instructions  -->
-    <h2>□Instructions</h2>
+    <h2>■Instructions</h2>
     <p>[1] Gather all the ingredients. If you are using 1¾ cups of freshly cooked rice, transfer the hot rice to a baking sheet. Spread it out and let it cool completely.</p>
 <img src="./images/img_tomo_omu_inst_1.jpg" alt="image_instruction">
 <p>[2] Mince the onion finely into ⅛-inch (3 mm) pieces.</p>
@@ -86,7 +86,8 @@
 <img src="./images/img_tomo_omu_inst3.jpg" alt="image_instruction">
 <p>[4] Heat the oil in a large frying pan over medium heat and sauté the onions until tender. Add the chicken and cook until it's no longer pink.</p>
 <img src="./images/img_tomo_omu_inst4.jpg" alt="image_instruction">
-<p>[5] Add the mixed vegetables and season with salt and pepper. Add the cooled rice and use a cutting motion with your spatula to break the clumps into small pieces. Add the ketchup and soy sauce and stir to combine. Transfer the fried rice to a plate and wash the pan.</p>
+<p>[5] Add the mixed vegetables and season with salt and pepper. Add the cooled rice and use a cutting motion with your spatula to break the clumps into small pieces. </p>
+    <p>Add the ketchup and soy sauce and stir to combine. Transfer the fried rice to a plate and wash the pan.</p>
 <img src="./images/img_tomo_omu_inst5.jpg" alt="image_instruction">
 <p>[6] We'll make the omurice one at a time. Whisk 1 egg and 1 Tbsp milk in a small bowl.</p>
 <img src="./images/img_tomo_omu_inst6.jpg" alt="image_instruction">
@@ -97,12 +98,35 @@
 <p>Use the spatula to fold both sides of the omelette over the middle to cover the fried rice. Carefully move the omurice to the edge of the pan.</p>
 
 <img src="./images/img_tomo_omu_inst8.jpg" alt="image_instruction">
-<p>Holding a plate in one hand and the pan in the other, flip the pan to transfer the omurice, seam side down, onto the plate.</p>
+<p>[9] Holding a plate in one hand and the pan in the other, flip the pan to transfer the omurice, seam side down, onto the plate.</p>
 
-<a href="https://www.justonecookbook.com/omurice-japanese-omelette-rice/" target="_blank">Referenced website</a>
 <img src="./images/img_tomo_omuraisu_bottom.jpg" alt="image_omurice">
 
-<!-- Omurice comments part  -->
+<p><a href="https://www.justonecookbook.com/omurice-japanese-omelette-rice/" target="_blank">Referenced website</a></p>
+
+<!-- more meal recipes  -->
+<div class="meal_recipes">
+<p class="meal_sentence">More meal recipes...--></p>
+<button class="open_btn">Open</button>
+</div>
+<!-- modal part  -->
+
+<div id="overlay" class="overlay"></div>
+
+<div class="modal_window">
+    <div class="mw_top">
+    <form action="#" method="post">
+    <label id="enter">Please enter your mail address.</label>
+    <input id="enter" type="email" name="mail" value="" placeholder="mail@example.com"><br>
+    <input type="submit" value="Submit">
+    </form>
+    </div>
+<div class="mw_bottom">
+    <button class="close_btn">Close</button>
+</div>
+</div>
+
+
 
 
 </section>
@@ -149,6 +173,9 @@
 
     <script src="../scripts/jquery-3.6.0.min.js"></script>
     <script src="../scripts/script.js"></script>
+    <script src="../Tomo/tomo.js"></script>
 </body>
+
+
 
 </html>
