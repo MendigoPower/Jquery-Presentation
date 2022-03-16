@@ -350,7 +350,8 @@ footer {
 .content {
   background-color: #fff;
   border-bottom: 1px solid #ddd;
-  display: none;
+  display:none;
+  overflow: auto;
 }
 .content p {
   padding: 10px 15px;
