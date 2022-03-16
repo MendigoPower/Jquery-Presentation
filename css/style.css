@@ -111,7 +111,8 @@ body {
 }
 
 .home-content {
-  margin: 50px 255px;
+  margin: 50px 360px;
+  text-align: center;
 }
 
 .home-content h1 {
@@ -121,7 +122,9 @@ body {
 
 .home-content p {
   font-size: 20px;
-  padding-top: 20px;
+  padding-top: 40px;
+  text-align: justify;
+  line-height: 24px
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
@@ -158,13 +161,13 @@ body {
 }
 
 .slider-bkground1 {
-  background: url(https://www.sabornamesa.com.br/media/k2/items/cache/3a93e06a79b58e8e24434c313eb7a045_XL.jpg);
+  background: url(https://i0.wp.com/3talheres.com.br/wp-content/uploads/2019/09/Festival-da-Parmegiana-no-Griletto.jpg?resize=1170%2C600&ssl=1);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slider-bkground2 {
-  background: url(https://livedoor.blogimg.jp/asahiro_3804/imgs/1/5/152ca31f.jpg);
+  background: url(https://i.ytimg.com/vi/FCmfXqVJc6Q/maxresdefault.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -176,7 +179,7 @@ body {
 }
 
 .slider-bkground4 {
-  background: url(https://www.gisymbol.com/wp-content/uploads/2021/02/StuffedPeppersLambQuinoaLemonIMG.jpg);
+  background: url(https://s3.amazonaws.com/finegardening.s3.tauntoncloud.com/app/uploads/vg-migration/2020/01/27234524/kg17gu5-thumb-16x9.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -294,13 +297,18 @@ footer {
   bottom: 5%;
   background-color: #424213;
   padding: 10px 20px 10px 20px;
-  opacity: 0.7;
+  opacity: 1;
   border-radius: 20px;
+}
+
+.scrbutton:hover {
+  opacity: 0.5;
 }
 
 .topbtn_p {
   margin-bottom: 0%;
   margin-right: 5%;
+  font-weight: bold;
   color: #fff;
 }
 
