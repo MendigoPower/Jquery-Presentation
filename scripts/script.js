@@ -1,21 +1,22 @@
 /* Dropdown menu */
 function menuBtn() {
-    document.getElementById("myDropdown").classList.toggle("show");
-  }
-  
-  window.onclick = function(event) {
-    if (!event.target.matches('.header__inner__menu--btn')) {
-      var dropdowns = document.getElementsByClassName("header__inner__menu--btn--content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function (event) {
+  if (!event.target.matches(".header__inner__menu--btn")) {
+    var dropdowns = document.getElementsByClassName(
+      "header__inner__menu--btn--content"
+    );
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains("show")) {
+        openDropdown.classList.remove("show");
       }
     }
   }
-
+};
 
 /* Carousel slides */
 jQuery(document).ready(function ($) {
@@ -69,7 +70,7 @@ jQuery(document).ready(function ($) {
 $(function () {
   var pagetop = $(".scroll");
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 10) {
+    if ($(this).scrollTop() > 200) {
       pagetop.fadeIn();
     } else {
       pagetop.fadeOut();
@@ -88,47 +89,38 @@ $(function () {
 });
 
 //Tooltip
-$("#tooltip-ingredients").attr('title', 'If you don\'t want a very sweet recipe, you can add dark cocoa powder');
-
+$("#tooltip-ingredients").attr(
+  "title",
+  "If you don't want a very sweet recipe, you can add dark cocoa powder"
+);
 
 // Tabs Buttons
-$(document).ready(function(){
-  $('div#txt_cont div:gt(0)').css('display', 'none');
-  $('#menu ul li a').click(function(event){
+$(document).ready(function () {
+  $("div#txt_cont div:gt(0)").css("display", "none");
+  $("#menu ul li a").click(function (event) {
     event.preventDefault();
-    var id_tab = $(this).attr('href');
-    $('#menu ul li a').removeClass('hover_tab');
-    $(this).addClass('hover_tab');
-    $('div.txt_tab:visible').hide();
-    $(id_tab).show('slide');
+    var id_tab = $(this).attr("href");
+    $("#menu ul li a").removeClass("hover_tab");
+    $(this).addClass("hover_tab");
+    $("div.txt_tab:visible").hide();
+    $(id_tab).show("slide");
   });
 });
 
-//FAQ JQuery Accordion 
-$(document).ready(function() {
-  $(".set > a").on("click", function() {
+//FAQ JQuery Accordion
+$(document).ready(function () {
+  $(".set > a").on("click", function () {
     if ($(this).hasClass("active")) {
       $(this).removeClass("active");
-      $(this)
-        .siblings(".content")
-        .slideUp(200);
-      $(".set > a i")
-        .removeClass("fa-minus")
-        .addClass("fa-plus");
+      $(this).siblings(".content").slideUp(200);
+      $(".set > a i").removeClass("fa-minus").addClass("fa-plus");
     } else {
-      $(".set > a i")
-        .removeClass("fa-minus")
-        .addClass("fa-plus");
-      $(this)
-        .find("i")
-        .removeClass("fa-plus")
-        .addClass("fa-minus");
+      $(".set > a i").removeClass("fa-minus").addClass("fa-plus");
+      $(this).find("i").removeClass("fa-plus").addClass("fa-minus");
       $(".set > a").removeClass("active");
       $(this).addClass("active");
       $(".content").slideUp(200);
-      $(this)
-        .siblings(".content")
-        .slideDown(200);
+      $(this).siblings(".content").slideDown(200);
     }
   });
 });
