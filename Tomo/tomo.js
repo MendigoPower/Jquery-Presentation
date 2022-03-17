@@ -1,19 +1,16 @@
 $(function () {
-  $(".open_btn").click(function () {
-    $("#overlay, .modal_window").fadeIn();
+  $(".form_btn").click(function () {
+    var str = $("#email").value;
+    if (str.match(/^([a-z0-9_\.\-])+@([a-z0-9_\.\-])+[^.]$/i)) {
+      $(".overlay, .modal").fadeIn();
+    } else {
+      alert("Please enter the correct mail address again.");
+    }
   });
+});
 
+$(function () {
   $(".close_btn").click(function () {
-    $("#overlay, .modal_window").fadeOut();
-  });
-
-  $(".submit_btn").click(function (event) {
-    event.preventDefault;
-    $(".mw_top").hide();
-    $(".modal_p").show();
-  });
-
-  $("#closeBtn").click(function () {
-    $("#overlay, .modal_window").fadeOut();
+    $(".overlay, .modal").fadeOut();
   });
 });
