@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+     <!-- Font Awesome ver 6.0.0-->
+    <script src="https://kit.fontawesome.com/bcd63e2dc6.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts: Roboto, Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+
+    <title>Worldwidefood - Brigadeiro</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+          <div class="header__inner">
+            <div class="header__inner__menu">
+                <button onclick="menuBtn()" class="header__inner__menu--btn">
+                    <i class="fa-solid fa-bars fa-2x"></i>
+                </button>
+                    <div id="myDropdown" class="header__inner__menu--btn--content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                        <a href="#">Link 4</a>
+                    </div>
+            </div>
+            <div class="header__inner__title">
+              <a href="index.html">Worldwide Food</a>
+            </div>  
+          </div>
+        </div>
+      </header>
+
+
+</head>
+
+<body>
+    <div class="recipe__content">
+        <h1 class="first-h1">Brigadeiro</h1>
+        <div class="recipe__content__video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/H9-GOFHxbj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        <h2>Ingredients:</h2>
+        <ul class="recipe__content__ingredients">
+            <li>1 tablespoon butter</li>
+            <li>14 oz sweetened condensed milk(395 g)</li>
+            <li id="tooltip-ingredients">¼ cup cocoa powder(30 g)</li>
+            <li>1 cup chocolate sprinkle(160 g), as needed</li>
+        </ul>
+        <h2>Preparation:</h2>
+        <ul class="recipe__content__preparation">
+            <li>In a pot over low heat, melt the butter, condensed milk, and cocoa powder, stirring continuously until you can see the bottom of the pot for 2-3 seconds when dragging a spatula through.</li>
+            <li>Pour onto a greased plate, then chill for 1 hour.</li>
+            <li>Shape and roll the chilled mixture into balls.</li>
+            <li>Roll the balls in chocolate sprinkles.</li>
+            <li>Enjoy!</li>
+        </ul>
+    </div>
+    <div class="recipe__faq">
+        <div class="accordion-container">
+            <h2>FAQ</h2>
+            <div class="set">
+              <a href="#bottom">
+                Nutrition Facts
+                <i class="fa fa-plus"></i>
+              </a>
+              <div class="content">
+                <p>Calories 184</p>
+                <p>Fat 7g</p>
+                <p>Carbs 26g</p> 
+                <p>Fiber 0g</p>
+                <p>Sugar 22g</p>
+                <p>Protein 3g</p>
+              </div>
+            </div>
+            <div class="set">
+              <a href="#bottom">
+                Cook's Note 
+                <i class="fa fa-plus"></i>
+              </a>
+              <div class="content">
+                <p> You will also need: Small pan (nonstick is great if you have it), whisk, wooden spoon, mini paper baking cups for truffles (optional). </p>
+              </div>
+            </div>
+            <div class="set">
+              <a href="#bottom">
+                How many serve
+                <i class="fa fa-plus"></i>
+              </a>
+              <div class="content">
+                <p>For 8 servings</p>
+              </div>
+            </div>
+            <div class="set">
+              <a href="#bottom">
+                Reference
+                <i class="fa fa-plus"></i>
+              </a>
+              <div class="content">
+                <p>https://tasty.co/recipe/classic-brigadeiros</p>
+              </div>
+            </div>
+          </div>
+    </div>
+
+     <!-- Footer part  -->
+     <footer>
+        <div class="footer_top">
+          <div class="footer_brazil">
+            <h2 class="footer_h2">Brazil</h2>
+            <p class="footer_p">Gabriel</p>
+            <p class="footer_p">Tatiana</p>
+          </div>
+          <div class="footer_turkey">
+            <h2 class="footer_h2">Turkey</h2>
+            <p class="footer_p">Umut</p>
+          </div>
+          <div class="footer_japan">
+            <h2 class="footer_h2">Japan</h2>
+            <p class="footer_p">Tomoyuki</p>
+          </div>
+          <div class="footer_image_part">
+            <img
+              class="footer_image"
+              src="./Images/img_footer_facebook.png"
+              alt="focebook_image"
+            />
+            <img
+              class="footer_image"
+              src="./Images/img_footer_instagram.png"
+              alt="instagram_image"
+            />
+            <img
+              class="footer_image"
+              src="./Images/img_footer_linkdin.png"
+              alt="linkdin_image"
+            />
+            <img
+              class="footer_image"
+              src="./Images/img_footer_twitter.png"
+              alt="twitter_image"
+            />
+          </div>
+        </div>
+  
+        <div class="footer_bottom">
+          <p class="footer_bottom_copy">Copyright2022</p>
+          <p class="footer_bottom_allright">All right reserved</p>
+        </div>
+  
+        <!-- Scroll-to-top button  -->
+        <div class="scroll">
+          <div id="topbtn" class="scrbutton">
+            <p class="topbtn_p"><a href="#">▲Top</a></p>
+          </div>
+        </div>
+      </footer>
+  
+      <script src="scripts/jquery-3.6.0.min.js"></script>
+      <script src="scripts/script.js"></script>
+    </body>
+  </html>
