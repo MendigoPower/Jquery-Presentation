@@ -13,6 +13,7 @@
 .trh2 {
     font-size: 40px;
     margin-bottom: 10px;
+    margin-top:  10%;
     color: goldenrod;
 }
 .trh3 {
@@ -26,13 +27,14 @@
     line-height: 22px;
     font-size: 18px;
     margin: 0 10%;
+    margin-bottom: 3%;
     
 }
 
-.pic1 {
+/* .pic1 {
     margin-top: 30px;
     border-radius: 30px;
-}
+} */
 
 h2 {
     font-size: 22px;
@@ -41,7 +43,7 @@ h2 {
 
 
 body {
-    background-color: beige;
+    background-color: #f1f1f1;
 }
 
 .vid {
@@ -54,3 +56,32 @@ li {
     font-size: 18px;
 }
 
+.slider-bakground1 {
+    background: url(https://www.giverecipe.com/wp-content/uploads/2019/05/Turkish-stuffed-peppers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .slider-bakground2 {
+    background: url(https://i.ytimg.com/vi/eZRmeq96o_s/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .slider-bakground3 {
+    background: url(https://ozlemsturkishtable.com/files/2013/06/cdigfizz1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .slider-bakground4 {
+    background: url(https://www.unicornsinthekitchen.com/wp-content/uploads/2018/05/Italian-stuffed-peppers-6-700px-500x500.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+  .recipe__faq {
+      margin-bottom: 2%;
+  }
