@@ -5,7 +5,7 @@
   width: 100%;
   padding: 5px 10px;
   margin-bottom: 50px;
-  background-color: white;
+  background-color: #cfcfcf;
   z-index: 1000;
 }
 
@@ -19,7 +19,7 @@
 
 .header__inner__title {
   font-family: "Hubballi", cursive;
-  font-size: 30px;
+  font-size: 45px;
 }
 
 /* Dropdown Button */
@@ -33,6 +33,11 @@
   font-size: 16px;
   border: none;
   cursor: pointer;
+}
+
+.header__inner__menu--btn:hover {
+  opacity: 0.6;
+  transition: all .2s ease;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -73,13 +78,19 @@
 /* END HEADER */
 
 body {
-  background-color: #f5f5dc;
+  background-color: #fff;
   font-family: "Hubballi", cursive;
 }
 
 .recipe__content {
   margin: auto 255px;
   padding-bottom: 50px;
+}
+
+.recipe__content img {
+  margin: 0 auto 0 auto;
+  border-radius: 8px;
+  box-shadow: rgb(83, 83, 83) 0px 20px 30px -10px;
 }
 
 .recipe__content h1 {
@@ -124,7 +135,7 @@ body {
   font-size: 20px;
   padding-top: 40px;
   text-align: justify;
-  line-height: 24px
+  line-height: 24px;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
@@ -136,20 +147,24 @@ body {
 #slider {
   position: relative;
   overflow: hidden;
-  border-radius: 4px;
   margin: 0 auto 0 auto;
+  box-shadow: rgb(83, 83, 83) 0px 20px 30px -10px;
+  border-radius: 9px;
+}
+
+#slider:hover {
+  box-shadow: rgb(83, 83, 83) 0px 15px 25px -5px;
+  transition: all .3s ease;
 }
 
 #slider ul {
   position: relative;
   margin-top: 100px;
-  height: 300px;
   list-style: none;
 }
 
 #slider ul li {
-  box-shadow: 0 40px 20px 0 rgba(0, 0, 35, 0.25);
-  border-radius: 8px;
+  
   position: relative;
   display: block;
   float: left;
@@ -225,7 +240,7 @@ a.control_next {
 /*  footer part  */
 
 footer {
-  background-color: #fff;
+  background-color: #cfcfcf;
   height: 170px;
 }
 .footer_top {
@@ -243,6 +258,12 @@ footer {
   font-size: 18px;
   padding-top: 5px;
 }
+
+.footer_top p:hover {
+  opacity: 0.6;
+  transition: all .2s ease;
+}
+
 
 .footer_brazil {
   width: 20%;
@@ -267,6 +288,11 @@ footer {
   width: 30px;
   height: 30px;
   margin: 10px;
+}
+
+.footer_image:hover {
+  opacity: 0.6;
+  transition: all .2s ease;
 }
 
 .footer_bottom {
@@ -295,7 +321,7 @@ footer {
   position: fixed;
   right: 5%;
   bottom: 5%;
-  background-color: #424213;
+  background-color: #5a5a5a;
   padding: 10px 20px 10px 20px;
   opacity: 1;
   border-radius: 20px;
@@ -303,6 +329,8 @@ footer {
 
 .scrbutton:hover {
   opacity: 0.5;
+  transition: all .2s ease-out;
+  
 }
 
 .topbtn_p {
@@ -355,7 +383,7 @@ footer {
 .content {
   background-color: #fff;
   border-bottom: 1px solid #ddd;
-  display:none;
+  display: none;
   overflow: auto;
 }
 .content p {
@@ -393,11 +421,11 @@ footer {
   color: #ffffff;
   font: 15px "Trebuchet MS", Trebuchet, sans-serif;
   border-radius: 10px 10px 0 0;
-  background-color: #4d5960;
+  background-color: #5A5A5A;
 }
 #menu li a:hover {
-  background-color: #dbe4ea;
-  color: #0b5394;
+  background-color: #ccc;
+  color: #000;
 }
 #txt_cont {
   font-size: 20px;
@@ -413,18 +441,33 @@ footer {
   text-align: justify;
 }
 .txt_tab {
-  padding: 10px 70px 10px 70px;
+  padding: 10px 70px 25px 70px;
 }
-#menu ul li a.hover_tab {
-  background-color: #dbe4ea;
-  color: #0b5394;
+
+.txt_tab img {
+  float:left; 
+  margin:2px 206px 50px 100px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
+
+.txt_tab img:hover {
+  transition: all .3s ease-out;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 8px, rgba(0, 0, 0, 0.3) 0px 14px 26px -6px, rgba(0, 0, 0, 0.2) 0px -6px 0px inset;
+}
+
+#menu ul li a.hover_tab:hover {
+  background-color: #ccc;
+  color: #000;
+  transition: all .3s ease-out;
+}
+
 
 .effect-btn {
   border: none;
   color: #fff;
   padding: 10px;
-  margin: 0 30% 0 35%;
+  margin: 30px 30% 0 35%;
   font-size: 24px;
   line-height: 24px;
   border-radius: 10px;
@@ -433,5 +476,13 @@ footer {
   cursor: pointer;
   background-color: #fff;
   color: black;
-  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  opacity: 0.7;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
+
+.effect-btn:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+  transition: all .2s ease-out;
+}
+

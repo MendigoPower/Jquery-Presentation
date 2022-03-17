@@ -153,37 +153,33 @@
         >
       </p>
 
-      <!-- more meal recipes  -->
-      <div class="meal_recipes">
-        <p class="meal_sentence">More meal recipes...--></p>
-        <button class="open_btn">Open</button>
-      </div>
-
-      <!-- modal part  -->
-
-      <div id="overlay" class="overlay"></div>
-
-      <div class="modal_window">
-        <div class="mw_top">
-          <label id="enter">Please enter your mail address.</label>
+      <!-- subscribe form  -->
+      <br />
+      <section class="form">
+        <h2>~Subscribe now!~</h2>
+        <form>
+          <p>Our website introduces so many kind of meal recipes!</p>
+          <label class="form_label" for="email"
+            >Please enter your e-mail address.</label
+          ><br />
           <input
-            class="input_1"
-            id="enter"
+            class="form_input"
             type="email"
-            name="mail"
-            value=""
+            id="email"
             placeholder="mail@example.com"
-          /><br />
+          />
+          <input type="button" value="Submit" class="form_btn"></input>
+        </form>
+      </section>
 
-          <input type="submit" value="Submit" class="submit_btn" />
+      <!-- subscribe modal  -->
+      <div class="overlay" id="overlay"></div>
+      <div class="modal" id="modalContent">
+        <div class="modal_p">
+          <p>We just sent you the e-mail.</p>
+          <p>Please check your mail box!</p>
         </div>
-        <p class="modal_p">
-          We sent you the invitation e-mail. <br />
-          Please check your mail box.
-        </p>
-        <div class="mw_bottom">
-          <button class="close_btn" id="closeBtn">Close</button>
-        </div>
+        <button id="modalClose" class="close_btn">Close</button>
       </div>
     </section>
 
