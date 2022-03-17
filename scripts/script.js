@@ -124,3 +124,9 @@ $(document).ready(function () {
     }
   });
 });
+
+//Modal
+$(".buttom__modal").click(function(event){
+  event.preventDefault();
+  $("#popup__modal").fadeToggle( "slow" );
+});

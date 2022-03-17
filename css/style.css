@@ -40,14 +40,12 @@
   transition: all .2s ease;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .header__inner__menu {
   position: absolute;
   left: 30px;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .header__inner__menu--btn--content {
   display: none;
   position: absolute;
@@ -57,7 +55,6 @@
   z-index: 1;
 }
 
-/* Links inside the dropdown */
 .header__inner__menu--btn--content a {
   color: black;
   padding: 12px 16px;
@@ -65,12 +62,10 @@
   display: block;
 }
 
-/* Change color of dropdown links on hover */
 .header__inner__menu--btn--content a:hover {
   background-color: #ddd;
 }
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
   display: block;
 }
@@ -82,15 +77,24 @@ body {
   font-family: "Hubballi", cursive;
 }
 
+.fake {
+  height: 70px;
+}
+
 .recipe__content {
-  margin: auto 255px;
-  padding-bottom: 50px;
+  margin: 0;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 .recipe__content img {
-  margin: 0 auto 0 auto;
   border-radius: 8px;
-  box-shadow: rgb(83, 83, 83) 0px 20px 30px -10px;
+  box-shadow: rgb(83, 83, 83) 0px 20px 30px -10px;;
+}
+
+.recipe__content img:hover {
+  box-shadow: rgb(83, 83, 83) 0px 15px 25px -5px;
+  transition: all .3s ease;
 }
 
 .recipe__content h1 {
@@ -99,23 +103,39 @@ body {
   padding-bottom: 20px;
 }
 
+.recipe_content_text {
+  font-size: 25px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  text-align: justify;
+}
+
+
 .recipe__content__video {
+  margin-top: 5%;
   text-align: center;
-  width: 100%;
+  max-width: 100%;
 }
 
 .recipe__content h2 {
+  margin-top: 5%;
+  margin-bottom: 2%;
   padding-top: 20px;
-  font-size: 30px;
+  font-size: 40px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+
 }
 
 .recipe__content__ingredients li {
+  font-size: 20px;
   list-style-type: circle;
   padding: 10px;
   margin-left: 15px;
 }
 
 .recipe__content__preparation li {
+  font-size: 20px;
   list-style-type: decimal;
   padding: 10px;
   margin-left: 15px;
@@ -136,6 +156,8 @@ body {
   padding-top: 40px;
   text-align: justify;
   line-height: 24px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
@@ -235,6 +257,11 @@ a.control_next {
 .slider_option {
   margin: 10px auto;
   font-size: 18px;
+}
+
+/* Ingredients */
+.ingredientes__tooltip {
+  text-decoration: underline;
 }
 
 /*  footer part  */
@@ -345,9 +372,10 @@ footer {
   position: relative;
   max-width: 500px;
   height: auto;
-  margin: 10px auto;
+  margin: 60px auto;
 }
 .accordion-container > h2 {
+  font-size: 35px;
   text-align: center;
   color: black;
   padding-bottom: 5px;
@@ -363,7 +391,7 @@ footer {
 }
 .set > a {
   display: block;
-  padding: 10px 15px;
+  padding: 15px 20px;
   text-decoration: none;
   color: #555;
   font-weight: 600;
@@ -371,6 +399,7 @@ footer {
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   transition: all 0.2s linear;
+  font-size: 20px;
 }
 .set > a i {
   float: right;
@@ -385,11 +414,13 @@ footer {
   border-bottom: 1px solid #ddd;
   display: none;
   overflow: auto;
+  
 }
 .content p {
-  padding: 10px 15px;
+  padding: 20px 25px;
   margin: 0;
   color: #333;
+  font-size: 20px;
 }
 
 /*  Scroll-to-top button  */
@@ -486,3 +517,53 @@ footer {
   transition: all .2s ease-out;
 }
 
+/* Modal */
+
+#box__modal {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+#box__modal a {
+    font-size: 1rem;
+    background: rgba(0, 0, 0, 0.78);
+    color: #fefefe;
+    -webkit-transition: .25s ease;
+            transition: .25s ease;
+}
+
+#popup__modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    text-align: center;
+    bottom:50%;
+    left:50%;
+    margin:-100px 0 0 -150px;
+    background:#fff;
+    width:280px;
+    height:200px;
+    padding:30px;
+    border: 1px solid black;
+}
+
+#popup__modal h2 {
+    font-size:36px;
+    color:#000;
+}
+
+#popup__modal a{
+    font-size:16px;
+    color:#000;
+    -webkit-transition: .25s ease;
+            transition: .25s ease;
+}
+
+#box__modal a:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#popup__modal a:hover {
+    text-decoration: underline;
+}
