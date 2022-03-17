@@ -61,11 +61,53 @@ section a {
   margin-bottom: 10px;
 }
 
+/* profile */
+
+.rv_form {
+  margin-bottom: 20px;
+}
+.profile {
+  display: flex;
+  border-bottom: 2px solid #cfcfcf;
+}
+
+.profile p {
+  margin: 0px;
+  font-size: 30px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.pro_button {
+  display: flex;
+  justify-content: center;
+}
+
+.probtn {
+  background-color: blue;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 20px;
+  opacity: 1;
+  color: #ffffff;
+}
+
+.probtn:hover {
+  opacity: 0.5;
+}
 /* subscribe form */
 
 .form {
   background-color: #cfcfcf;
-  padding: 10px;
+  padding: 30px;
+  margin-bottom: 20px;
 }
 
 .form_label {
@@ -103,7 +145,7 @@ section a {
   display: none;
   position: fixed;
   background-color: #ffffff;
-  width: 300px;
+  width: 400px;
   height: 200px;
   border-radius: 5px;
   margin: 1.5rem auto 0;
@@ -112,6 +154,7 @@ section a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .overlay {
