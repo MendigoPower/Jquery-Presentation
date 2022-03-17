@@ -264,6 +264,11 @@ a.control_next {
   font-size: 18px;
 }
 
+/* Ingredients */
+.ingredientes__tooltip {
+  text-decoration: underline;
+}
+
 /*  footer part  */
 
 footer {
