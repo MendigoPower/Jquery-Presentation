@@ -1,13 +1,3 @@
-// console.log("Sa")
-
-// let konutKredileri = ["Konut kredisi", "Emlak kk","kamu kk"]
-
-// console.log("<ul>")
-// for(let i = 0;i<konutKredileri.length;i++){
-//     console.log("<li>"+konutKredileri[i]+"</li>")
-// }
-// console.log("</ul>")
-
 let ingredients = ["12 small green peppers, with thin skins, suitable for stuffing","1 large onion, finely diced",
     "2/3 cup (100 grams) dried currants or dark raisins",
     "2/3 cup (60 grams) pine nuts",
