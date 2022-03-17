@@ -99,14 +99,27 @@ body {
   margin-left: 5%;
 }
 
+.recipe__content img:hover {
+  box-shadow: rgb(83, 83, 83) 0px 15px 25px -5px;
+  transition: all .3s ease;
+}
+
 .recipe__content h1 {
   font-size: 55px;
   padding-top: 80px;
   padding-bottom: 20px;
 }
 
+.recipe_content_text {
+  font-size: 25px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  text-align: justify;
+}
+
+
 .recipe__content__video {
-  margin-top: 10%;
+  margin-top: 5%;
   text-align: center;
   max-width: 100%;
 }
