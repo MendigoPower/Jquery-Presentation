@@ -264,6 +264,11 @@ a.control_next {
   font-size: 18px;
 }
 
+/* Ingredients */
+.ingredientes__tooltip {
+  text-decoration: underline;
+}
+
 /*  footer part  */
 
 footer {
@@ -517,3 +522,53 @@ footer {
   transition: all .2s ease-out;
 }
 
+/* Modal */
+
+#box__modal {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+#box__modal a {
+    font-size: 1rem;
+    background: rgba(0, 0, 0, 0.78);
+    color: #fefefe;
+    -webkit-transition: .25s ease;
+            transition: .25s ease;
+}
+
+#popup__modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    text-align: center;
+    bottom:50%;
+    left:50%;
+    margin:-100px 0 0 -150px;
+    background:#fff;
+    width:280px;
+    height:200px;
+    padding:30px;
+    border: 1px solid black;
+}
+
+#popup__modal h2 {
+    font-size:36px;
+    color:#000;
+}
+
+#popup__modal a{
+    font-size:16px;
+    color:#000;
+    -webkit-transition: .25s ease;
+            transition: .25s ease;
+}
+
+#box__modal a:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#popup__modal a:hover {
+    text-decoration: underline;
+}
