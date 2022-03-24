@@ -1,3 +1,12 @@
+body {
+  background-color: #fff;
+  font-family: "Hubballi", cursive;
+}
+
+.fake {
+  height: 70px;
+}
+
 /* HEADER */
 
 .header {
@@ -18,7 +27,6 @@
 }
 
 .header__inner__title {
-  font-family: "Hubballi", cursive;
   font-size: 45px;
 }
 
@@ -78,9 +86,6 @@ body {
   font-family: "Hubballi", cursive;
 }
 
-.fake {
-  height: 70px;
-}
 
 .home-content {
   margin: 50px 360px;
@@ -104,8 +109,6 @@ body {
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 
 /*  Carousel part  */
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 
 #slider {
   position: relative;
@@ -139,24 +142,24 @@ body {
 
 .slider-bkground1 {
   background: url(https://i0.wp.com/3talheres.com.br/wp-content/uploads/2019/09/Festival-da-Parmegiana-no-Griletto.jpg?resize=1170%2C600&ssl=1);
-  background-repeat: no-repeat;
-  background-size: cover;
+  
 }
 
 .slider-bkground2 {
   background: url(https://i.ytimg.com/vi/FCmfXqVJc6Q/maxresdefault.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  
 }
 
 .slider-bkground3 {
   background: url(http://ricettebrasiliane.it/wp-content/uploads/2018/08/ricette-brasiliane-brigadeiro-1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  
 }
 
 .slider-bkground4 {
   background: url(https://s3.amazonaws.com/finegardening.s3.tauntoncloud.com/app/uploads/vg-migration/2020/01/27234524/kg17gu5-thumb-16x9.jpg);
+  
+}
+.slidercm {
   background-repeat: no-repeat;
   background-size: cover;
 }
