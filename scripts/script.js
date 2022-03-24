@@ -3,7 +3,7 @@ function menuBtn() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
-window.onclick = function (event) {
+$(".fa-solid").onclick = function (event) {
   if (!event.target.matches(".header__inner__menu--btn")) {
     var dropdowns = document.getElementsByClassName(
       "header__inner__menu--btn--content"
@@ -126,7 +126,7 @@ $(document).ready(function () {
 });
 
 //Modal
-$(".buttom__modal").click(function(event){
+$(".buttom__modal").click(function (event) {
   event.preventDefault();
-  $("#popup__modal").fadeToggle( "slow" );
+  $("#popup__modal").fadeToggle("slow");
 });
