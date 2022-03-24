@@ -88,7 +88,7 @@ $(function () {
   });
 });
 
-//Tooltip
+//Tooltip--Brigadeiro
 $("#tooltip-ingredients").attr(
   "title",
   "If you don't want a very sweet recipe, you can add dark cocoa powder"
