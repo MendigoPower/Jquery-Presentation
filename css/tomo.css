@@ -39,7 +39,7 @@ section li {
 
 section a {
   font-size: 20px;
-  color: blue;
+  color: #0000ff;
   border-bottom: 1px solid blue;
 }
 
@@ -180,7 +180,7 @@ section a {
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: darkgoldenrod;
+  background-color: #b8860b;
   color: #ffffff;
   width: 70px;
   height: 30px;
