@@ -1,3 +1,5 @@
+// Subscribe form
+
 function ValidateEmail(inputText) {
   var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
   if (inputText.value.match(mailformat)) {
@@ -11,6 +13,8 @@ function ValidateEmail(inputText) {
   }
 }
 
+// Modal form
+
 $(function () {
   $(".probtn").click(function () {
     $(".overlay, .modal").fadeIn();
@@ -22,3 +26,15 @@ $(function () {
     });
   });
 });
+
+// Viewers form
+
+window.onload = function calcurate() {
+  var yesterday = Math.floor(Math.random() * 1000);
+  var today = Math.floor(Math.random() * 100);
+  var total = yesterday + today;
+
+  document.getElementById("yesterday").innerHTML = yesterday;
+  document.getElementById("today").innerHTML = today;
+  document.getElementById("total").innerHTML = total;
+};

@@ -46,11 +46,15 @@
   <section>
     <div class="recipe__content">
       <div class="fake"></div>
-        <h1 class="first-h1">Brigadeiro</h1>
+        <h1>Brigadeiro</h1>
         <div class="recipe__content__video">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/H9-GOFHxbj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         
+        <div class="type-js headline">
+          <h1 class="text-js">Brazilians like sweet food!</h1>
+        </div>
+
         <h2>Ingredients:</h2>
         <ul class="recipe__content__ingredients">
             <li>1 tablespoon butter</li>
@@ -113,9 +117,15 @@
               </div>
             </div>
           </div>
-    </div>
 
-     <!-- Footer part  -->
+          <div class="viewer">
+            <h2>Today's viewers : <span id="today">0</span></h2>
+            <h2>Until yesterday : <span id="yesterday">0</span></h2>
+            <h2>Total viewers : <span id="total">0</span></h2>
+          </div>
+
+    </div>
+    
      <footer>
         <div class="footer_top">
           <div class="footer_brazil">
@@ -159,8 +169,7 @@
           <p class="footer_bottom_copy">Copyright2022</p>
           <p class="footer_bottom_allright">All right reserved</p>
         </div>
-  
-        <!-- Scroll-to-top button  -->
+
         <div class="scroll">
           <div id="topbtn" class="scrbutton">
             <p class="topbtn_p"><a href="#">▲Top</a></p>
@@ -170,5 +179,6 @@
   
       <script src="scripts/jquery-3.6.0.min.js"></script>
       <script src="scripts/script.js"></script>
+      <script src="scripts/omurice.js"></script>
     </body>
   </html>
