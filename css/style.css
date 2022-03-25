@@ -1,4 +1,6 @@
-/* Whole settings */
+/* -----------------
+    Whole settings 
+--------------------*/
 
 body {
   background-color: #ffffff;
@@ -9,7 +11,9 @@ body {
   height: 70px;
 }
 
-/* HEADER */
+/* -------------------
+    Header Settings 
+----------------------*/
 
 .header {
   position: fixed;
@@ -32,7 +36,10 @@ body {
   font-size: 50px;
 }
 
-/* Dropdown Button */
+/* -----------------
+    Dropdown Button 
+--------------------*/
+
 .fa-solid {
   color: #5a5a5a;
   display: block;
@@ -81,15 +88,8 @@ body {
   display: block;
 }
 
-/* END HEADER */
-
-body {
-  background-color: #ffffff;
-  font-family: "Hubballi", cursive;
-}
-
 .home-content {
-  margin: 50px 360px;
+  margin: 50px 20%;
   text-align: center;
 }
 
@@ -109,7 +109,9 @@ body {
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 
-/*  Carousel part  */
+/* ------------------------
+       Carousel part 
+----------------------------*/
 
 #slider {
   position: relative;
@@ -141,24 +143,25 @@ body {
   text-align: center;
 }
 
-.slider-bkground1 {
+.slider-bkground {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider_img_1 {
   background: url(https://i0.wp.com/3talheres.com.br/wp-content/uploads/2019/09/Festival-da-Parmegiana-no-Griletto.jpg?resize=1170%2C600&ssl=1);
 }
 
-.slider-bkground2 {
+.slider_img_2 {
   background: url(https://i.ytimg.com/vi/FCmfXqVJc6Q/maxresdefault.jpg);
 }
 
-.slider-bkground3 {
+.slider_img_3 {
   background: url(http://ricettebrasiliane.it/wp-content/uploads/2018/08/ricette-brasiliane-brigadeiro-1.jpg);
 }
 
-.slider-bkground4 {
+.slider_img_4 {
   background: url(https://s3.amazonaws.com/finegardening.s3.tauntoncloud.com/app/uploads/vg-migration/2020/01/27234524/kg17gu5-thumb-16x9.jpg);
-}
-.slidercm {
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 a.control_prev,
@@ -194,12 +197,10 @@ a.control_next {
   border-radius: 2px 0 0 2px;
 }
 
-.slider_option {
-  margin: 10px auto;
-  font-size: 20px;
-}
 
-/*  footer part  */
+/* -----------------
+    Footer part
+--------------------*/
 
 footer {
   background-color: #cfcfcf;
@@ -271,7 +272,9 @@ footer {
   margin-left: 10px;
 }
 
-/*  Scroll-to-top button  */
+/* -------------------------
+    Scroll to top button 
+----------------------------*/
 
 .scroll {
   text-align: right;
@@ -300,7 +303,9 @@ footer {
   color: #ffffff;
 }
 
-/*  Scroll-to-top button  */
+/* -----------------
+    Tab Buttons 
+--------------------*/
 #menu {
   float: right;
   position: relative;
@@ -396,7 +401,9 @@ footer {
   transition: all 0.2s ease-out;
 }
 
-/* Modal */
+/* -----------------
+    Modal Effect 
+--------------------*/
 
 #box__modal {
   text-align: center;
