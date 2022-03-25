@@ -100,6 +100,14 @@
 .probtn:hover {
   opacity: 0.5;
 }
+
+/* Viewer form */
+
+.viewer {
+  margin-top: 40px;
+  text-align: center;
+}
+
 /* subscribe form */
 
 .form {
