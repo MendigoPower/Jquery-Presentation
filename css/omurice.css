@@ -1,6 +1,6 @@
 /* Default settings */
 
-.tomo_contents {
+.omu_contents {
   margin: 0;
   padding-left: 25%;
   padding-right: 25%;
@@ -10,35 +10,33 @@
   height: 150px;
 }
 
-section h1 {
-  font-size: 50px;
+.omu_contents h1 {
+  font-size: 45px;
 }
 
-section h2 {
-  font-size: 30px;
+.omu_contents h2 {
+  font-size: 40px;
   margin-top: 2%;
   margin-bottom: 4%;
 }
 
-section h3 {
+.omu_contents h3 {
   font-size: 25px;
   display: inline-block;
-  border-bottom: dashed 2px #424213;
+  border-bottom: dashed 2px #5a5a5a;
   margin-bottom: 10px;
 }
 
-section p {
-  font-size: 23px;
+.omu_contents p li a {
+  font-size: 20px;
+}
+
+.omu_contents p {
   margin-top: 2%;
   margin-bottom: 2%;
 }
 
-section li {
-  font-size: 20px;
-}
-
-section a {
-  font-size: 20px;
+.omu_contents a {
   color: #0000ff;
   border-bottom: 1px solid blue;
 }
@@ -53,7 +51,7 @@ section a {
 
 .meal_sentence {
   margin: 5px 10px 5px 10px;
-  font-size: 30px;
+  font-size: 25px;
 }
 .meal_recipes {
   display: flex;
@@ -73,7 +71,7 @@ section a {
 
 .profile p {
   margin: 0px;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .icon {
@@ -88,7 +86,7 @@ section a {
 }
 
 .probtn {
-  background-color: blue;
+  background-color: #5a5a5a;
   width: 200px;
   height: 30px;
   text-align: center;
@@ -180,7 +178,7 @@ section a {
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #b8860b;
+  background-color: #daa520;
   color: #ffffff;
   width: 70px;
   height: 30px;
