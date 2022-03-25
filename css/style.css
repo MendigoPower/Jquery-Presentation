@@ -415,8 +415,13 @@ footer {
   font-size: 20px;
   background: rgba(0, 0, 0, 0.78);
   color: #ffffff;
-  -webkit-transition: 0.25s ease;
-  transition: 0.25s ease;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+#box__modal p {
+  padding-bottom: 20px;
+  font-size: 20px;
 }
 
 #popup__modal {
@@ -425,31 +430,27 @@ footer {
   z-index: 1000;
   text-align: center;
   bottom: 50%;
-  left: 50%;
+  left: 44%;
   margin: -100px 0 0 -150px;
   background: #ffffff;
-  width: 280px;
-  height: 200px;
+  width: 480px;
+  height: 300px;
   padding: 30px;
   border: 1px solid black;
 }
 
-/* #popup__modal h2 {
-  font-size: 36px;
-  color: #000000;
-} */
-
 #popup__modal a {
   font-size: 20px;
   color: #000000;
-  -webkit-transition: 0.25s ease;
   transition: 0.25s ease;
 }
 
 #box__modal a:hover {
   background: rgba(0, 0, 0, 0.9);
+  opacity: 0.6;
 }
 
 #popup__modal a:hover {
   text-decoration: underline;
+  opacity: 0.6;
 }
