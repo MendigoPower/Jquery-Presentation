@@ -1,84 +1,73 @@
 .centered {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6%;
 }
 
 .trh1 {
-    font-size: 50px; 
-    margin-bottom: 2%;    
+  font-size: 45px;
+  margin-bottom: 2%;
 }
 
 .trh2 {
-    font-size: 40px;
-    margin-bottom: 10px;
-    margin-top:  10%;
-    
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-top: 10%;
 }
 
 .trh3 {
-    font-size: 40px;
-    margin-top: 22px;
+  font-size: 40px;
+  margin-top: 22px;
 }
 
 .trhcm {
-    color: goldenrod;
+  color: #daa520;
 }
 
 .f_exp {
-    text-align: justify;
-    line-height: 22px;
-    font-size: 18px;
-    margin: 0 10%;
-    margin-bottom: 3%;  
-}
-
-h2 {
-    font-size: 22px;
-    
+  text-align: justify;
+  line-height: 22px;
+  font-size: 20px;
+  margin: 0 10%;
+  margin-bottom: 3%;
 }
 
 body {
-    background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 .vid {
-    margin-bottom: 3%;
-    margin-top: 1%;
+  margin-bottom: 3%;
+  margin-top: 1%;
 }
 
 li {
-    line-height: 22px;
-    font-size: 18px;
+  line-height: 22px;
+  font-size: 20px;
 }
 
 .slider-bakground1 {
-    background: url(https://www.giverecipe.com/wp-content/uploads/2019/05/Turkish-stuffed-peppers.jpg);
-    
-  }
-  
-  .slider-bakground2 {
-    background: url(https://i.ytimg.com/vi/eZRmeq96o_s/maxresdefault.jpg);
-    
-  }
-  
-  .slider-bakground3 {
-    background: url(https://ozlemsturkishtable.com/files/2013/06/cdigfizz1.jpg);
-    
-  }
-  
-  .slider-bakground4 {
-    background: url(https://www.unicornsinthekitchen.com/wp-content/uploads/2018/05/Italian-stuffed-peppers-6-700px-500x500.jpg);
-    
-  }
+  background: url(https://www.giverecipe.com/wp-content/uploads/2019/05/Turkish-stuffed-peppers.jpg);
+}
 
-  .slidercm {
-    background-repeat: no-repeat;
-    background-size: cover;
+.slider-bakground2 {
+  background: url(https://i.ytimg.com/vi/eZRmeq96o_s/maxresdefault.jpg);
+}
 
-  }
+.slider-bakground3 {
+  background: url(https://ozlemsturkishtable.com/files/2013/06/cdigfizz1.jpg);
+}
 
-  .recipe__faq {
-      margin-bottom: 2%;
-  }
+.slider-bakground4 {
+  background: url(https://www.unicornsinthekitchen.com/wp-content/uploads/2018/05/Italian-stuffed-peppers-6-700px-500x500.jpg);
+}
+
+.slidercm {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.recipe__faq {
+  margin-bottom: 2%;
+}
